@@ -9,7 +9,7 @@ console.log(chalk.bgCyanBright(`MongoDB connected: ${conn.connection.host}`));
 
         
     } catch (error) {
-        console.log(chalk.bgred(error));
+        console.log(chalk.redBright(error));
         
     }
 }
